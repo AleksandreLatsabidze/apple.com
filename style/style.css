@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333;
+}
+header {
+  background-color: black;
+}
+.container {
+  max-width: 1024px;
+  padding: 0px 22px;
+  margin: 0 auto;
+  width: 100%;
+}
+.header-menu {
+  color: gray;
+}
+.header-menu > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.header-view {
+  border-bottom: 1px solid gray;
+  padding: 15px 0px;
+}
+.headerview-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tech-buy > ul {
+  display: flex;
+}
+.tech-buy li a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 6px 13px;
+}
+.iphone-14 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.buy-btn {
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+}
+.submenu {
+  width: 100%;
+  background-color: #333;
+  position: absolute;
+  padding: 30px 0px;
+  left: 0px;
+  display: none;
+  z-index: 99;
+}
+.header-menu > ul li a {
+  color: gray;
+  text-decoration: none;
+}
+.submenu-flex span {
+  font-size: 13px;
+  color: gray;
+  display: block;
+  margin-bottom: 20px;
+}
+.submenu-flex ul li a {
+  color: white;
+}
+.submenuflex-1 a {
+  font-size: 25px;
+  font-weight: bold;
+}
+.submenuflex-2 a {
+  font-size: 13px;
+}
+.submenu-flex {
+  display: flex;
+}
+.submenuflex-1 {
+  margin-right: 60px;
+}
+.header-menu > ul li {
+  line-height: 34px;
+}
+.header-menu > ul > li:hover .submenu {
+  display: block;
+}
+.header-menu > ul > li:first-child {
+  line-height: normal;
+}
+.header-video {
+  position: relative;
+  width: 100%;
+}
+.header-video video {
+  max-height: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+}
+.minitxt > a {
+  font-size: 13px;
+}
