@@ -44,9 +44,6 @@ header {
   font-size: 13px;
   padding: 6px 13px;
 }
-.view > a {
-  color: #333;
-}
 .iphone-14 {
   color: white;
   font-size: 20px;
@@ -127,16 +124,7 @@ header {
 .pro-title {
   color: #d5d4d4;
   font-weight: bold;
-  font-size: 62px;
-}
-.purple,
-.gold,
-.silver,
-.black {
-  color: white;
-  display: flex;
-  align-items: center;
-  margin-right: 5px;
+  font-size: 65px;
 }
 .color-flex {
   display: flex;
@@ -167,9 +155,33 @@ header {
 .only-colors {
   display: flex;
 }
-.dsp-none {
-  display: none;
+
+.color-btn {
+  display: flex;
+  gap: 6px;
 }
-/* #dspnone {
+.color-btn div {
+  cursor: pointer;
+}
+.purple {
+  display: flex;
+  align-items: center;
+}
+.purple h3 {
+  color: white;
   display: none;
-} */
+  font-size: 19px;
+}
+.newclass {
+  display: block !important;
+}
+.iphoneimgs img {
+  display: none;
+  max-width: 800px;
+  width: 100%;
+}
+.iphoneimgs {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
