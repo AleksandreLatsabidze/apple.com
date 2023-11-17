@@ -37,11 +37,15 @@ header {
 .tech-buy > ul {
   display: flex;
 }
+
 .tech-buy li a {
   color: white;
   text-decoration: none;
   font-size: 13px;
   padding: 6px 13px;
+}
+.view > a {
+  color: #333;
 }
 .iphone-14 {
   color: white;
@@ -50,8 +54,8 @@ header {
 }
 .buy-btn {
   color: white;
-  background-color: blue;
-  border-radius: 10px;
+  background-color: #0071e3;
+  border-radius: 980px;
 }
 .submenu {
   width: 100%;
@@ -70,7 +74,7 @@ header {
   font-size: 13px;
   color: gray;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .submenu-flex ul li a {
   color: white;
@@ -88,6 +92,7 @@ header {
 .submenuflex-1 {
   margin-right: 60px;
 }
+
 .header-menu > ul li {
   line-height: 34px;
 }
@@ -110,3 +115,61 @@ header {
 .minitxt > a {
   font-size: 13px;
 }
+.submenuflex-3 {
+  margin-right: 45px;
+  margin-left: 20px;
+}
+.pro-colors {
+  padding: 45px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.pro-title {
+  color: #d5d4d4;
+  font-weight: bold;
+  font-size: 62px;
+}
+.purple,
+.gold,
+.silver,
+.black {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+.color-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.purple-circle {
+  background-color: #301934;
+  padding: 11px 11px;
+  border-radius: 100%;
+  margin-left: 15px;
+}
+.gold-circle {
+  background-color: #cfc8a1;
+  padding: 11px 11px;
+  border-radius: 100%;
+}
+.silver-circle {
+  background-color: #d0cccc;
+  padding: 11px 11px;
+  border-radius: 100%;
+}
+.black-circle {
+  background-color: #535252;
+  padding: 11px 11px;
+  border-radius: 100%;
+}
+.only-colors {
+  display: flex;
+}
+.dsp-none {
+  display: none;
+}
+/* #dspnone {
+  display: none;
+} */
