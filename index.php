@@ -575,7 +575,26 @@
     </header>
     <section class="sect-1">
         <div class="container">
-
+            <div class="sect1-title">
+                <h1>iPhone 14 Pro and iPhone 14 Pro Max</h1>
+                <button>Buy</button>
+            </div>
+            <div class="sect1title-dinamic">
+                <div class="dinamic-island">
+                    <h1>Meet<br>Dynamic island</h1>
+                    <img src="image/dinamicislan.jpg" alt="">
+                </div>
+                <div class="dinamicisland-2">
+                    <div class="maincamera">
+                        <img src="image/ngflower.jpg" width="371px" height="370px">
+                        <!-- <h1>48MP Main camera.<br>Mind-blowing detail.</h1> -->
+                    </div>
+                    <div class="mastermind">
+                        <!-- <h1>The<br>mastermind<br>behind it all.</h1> -->
+                        <img src="image/applechip.jpg" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <script src="js/script.js"></script>
