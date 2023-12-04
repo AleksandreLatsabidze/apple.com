@@ -7,7 +7,21 @@
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="http://lovetutto.com/css/animate.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <title>Apple</title>
+    <script src="js/wow.js"></script>
+    <script>
+    wow = new WOW({
+        animateClass: 'animated',
+        offset: 100
+    });
+    wow.init();
+    </script>
+    <!-- sxvasaitidanaa es -->
+    <link rel="stylesheet" href="http://lovetutto.com/css/aos.css" />
+    <script src="http://lovetutto.com/js/aos.js"></script>
 </head>
 
 <body>
@@ -582,16 +596,28 @@
             <div class="sect1title-dinamic">
                 <div class="dinamic-island">
                     <h1>Meet<br>Dynamic island</h1>
-                    <img src="image/dinamicislan.jpg" alt="">
+                    <a href="#">
+                        <div class="dinamicbtn"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                    <img class="wow fadeInUp" src="image/dinamicislan.jpg" alt="">
                 </div>
                 <div class="dinamicisland-2">
-                    <div class="maincamera">
+                    <div class="maincamera wow">
                         <img src="image/ngflower.jpg" width="371px" height="370px">
-                        <!-- <h1>48MP Main camera.<br>Mind-blowing detail.</h1> -->
+                        <h1>48MP Main camera.<br>Mind-blowing detail.</h1>
+                        <a href="#">
+                            <div class="dinamicbtn"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </div>
+                        </a>
                     </div>
-                    <div class="mastermind">
-                        <!-- <h1>The<br>mastermind<br>behind it all.</h1> -->
+                    <div class="mastermind wow">
+                        <h1>The<br>mastermind<br>behind it all.</h1>
                         <img src="image/applechip.jpg" alt="">
+                        <a href="#">
+                            <div class="dinamicbtn"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -599,5 +625,12 @@
     </section>
     <script src="js/script.js"></script>
 </body>
+<script>
+AOS.init({
+    duration: 650,
+
+    once: true
+});
+</script>
 
 </html>
