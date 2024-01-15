@@ -621,7 +621,27 @@
                     </div>
                 </div>
             </div>
+            <div class="allDay">
+                <div class="allDaysect">
+                    <div class="alldays">
+                        <div class="allday-text">
+                            <h2>A battery that’s</h2>
+                            <div class="alltext">
+                                <h1 class="all_left">all in, </h1>
+                                <h1 class="all_right"> all day.</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="alldayfilm">
+                        <video autoplay muted loop playsinline src="video/wolf.mp4">Pro video
+
+                            Film like a Pro.
+                        </video>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </section>
     <script src="js/script.js"></script>
 </body>

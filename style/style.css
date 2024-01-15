@@ -320,3 +320,44 @@ header {
   top: 7px;
   color: black;
 }
+.allDay {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 0px;
+}
+.allDaysect {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.alldays {
+  width: 40%;
+  background-color: #000;
+  border-radius: 25px;
+}
+.alldayfilm {
+  width: 60%;
+}
+.allday-text {
+  text-align: center;
+  padding: 73px 86px;
+}
+.allday-text > h2 {
+  color: #b344ff;
+  font-size: 25px;
+  font-family: monospace;
+}
+.alltext {
+  margin-top: 10px;
+}
+.alltext h1 {
+  color: #f389f3;
+  font-size: 70px;
+}
+.all_left {
+  margin-left: -45px;
+}
+.all_right {
+  margin-right: -85px;
+}
